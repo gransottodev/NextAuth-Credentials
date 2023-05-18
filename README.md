@@ -1,34 +1,79 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NEXTAUTH 🚀
 
-## Getting Started
+## Sobre
 
-First, run the development server:
+Esse projeto tem como intuição o estudo de autenticação utilizando o NextAuth biblioteca padrão
+de autenticação do NextJS
 
-```bash
-npm run dev
-# or
-yarn dev
+
+
+
+
+## Getting Started ✨
+
+
+### 📋 Pré-requisitos
+O que você precisa para instalar o software?
+```
+  Node.js Versão 18.16.0 (Que no momento é a versão LTS)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Instalação ⬇️
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+1. Para baixar esse repositório utilize o comando em seu terminal:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+```
+$ git clone https://github.com/gransottodev/NextAuth-Credentials.git
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+2. Instalando as dependencias:
 
-## Learn More
+```bash
+npm install
+#or
+yarn install
+```
 
-To learn more about Next.js, take a look at the following resources:
+### Rodando o projeto ✅
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+npm run dev
+#or
+yarn dev
+```
+Estará disponível em : http:localhost:3000 após a inicialização
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Sobre a API ❓
 
-## Deploy on Vercel
+```
+Nesse projeto utilizei meu próprio BackEnd para fazer a validação dos dados de usuário e retornar o token JWT 
+que nos dá acesso a rota "/dashboard" após o sucesso do login
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Caso queira utilizar essa API deixarei o link para download no final do documento 👇
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Tecnologias utilizadas 💻:
+
+```
+ NextJS ✅
+ ContextAPI ✅
+ Axios ✅
+ NextAuth ✅
+ Server Side Rendering(SSR) ✅
+ Nookies (Lib para tratamento de cookies em NextJS) ✅
+```
+
+<hr>
+
+## Referências para esse projeto ℹ️ :
+
+* [Rokeatseat - Autenticação JWT com back-end próprio](https://youtu.be/pvrKHpXGO8E)
+* [NextJS](https://nextjs.org)
+* [NextAuth](https://next-auth.js.org)
+* [Axios](https://axios-http.com)
+* [Nookies](https://www.npmjs.com/package/nookies)
+<hr>
+
+### API
+[Clique aqui para baixar o BackEnd que utilizei para esse projeto!](https://github.com/gransottodev/DevBank-BackEnd)
